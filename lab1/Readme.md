@@ -1,0 +1,3 @@
+# lab1
+## Instructions
+1. The challenge asks you to solve big number mathematics and use base64 to encode the result in a shortest little endian represented binary number (8-bit aligned because one byte has 8 bits). For example, given the equation 108713406511 * 137993468292, the numeric result is 15001740014290984849212. Based on the challenge requirement, you should send PE+hYV/09j4tAw==, which is encoded from a byte sequence containing ['0x3c', '0x4f', '0xa1', '0x61', '0x5f', '0xf4', '0xf6', '0x3e', '0x2d', '0x03'].

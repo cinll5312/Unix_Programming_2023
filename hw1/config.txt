@@ -1,0 +1,22 @@
+BEGIN open-blacklist
+/home/nctu/wen/unix_programming/lab/hw1/a.txt
+/etc/shadow
+/etc/passwd
+/usr/bin/cat
+END open-blacklist
+
+BEGIN read-blacklist
+-----BEGIN CERTIFICATE-----
+END read-blacklist
+
+
+BEGIN connect-blacklist
+www.nycu.edu.tw:4433
+google.com:80
+END connect-blacklist
+
+BEGIN getaddrinfo-blacklist
+www.ym.edu.tw
+www.nctu.edu.tw
+google.com
+END getaddrinfo-blacklist
